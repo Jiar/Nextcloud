@@ -23,7 +23,7 @@
       ]
     },
     "mac": {
-      "icon": "public/icon/icons.icns",
+      "icon": "public/icon/icons.png",
       "target": [
         "dmg"
       ]
