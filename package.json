@@ -6,10 +6,7 @@
   "scripts": {
     "start": "electron .",
     "pack-win": "electron-builder --win --x64",
-    "pack-mac": "electron-builder --mac --x64",
-    "dist": "electron-builder",
-    "build": "electron-builder",
-    "build:dir": "electron-builder --dir"
+    "pack-mac": "electron-builder --mac --x64"
   },
   "author": "Jiar",
   "license": "ISC",
