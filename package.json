@@ -1,0 +1,39 @@
+{
+  "name": "nextcloud",
+  "version": "1.0.0",
+  "description": "nextcloud",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack-win": "electron-builder --win --x64",
+    "pack-mac": "electron-builder --mac --x64",
+    "dist": "electron-builder",
+    "build": "electron-builder",
+    "build:dir": "electron-builder --dir"
+  },
+  "author": "Jiar",
+  "license": "ISC",
+  "build": {
+    "appId": "ink.umeet.nextcloud",
+    "productName": "Nextcloud",
+    "directories": {
+      "output": "build"
+    },
+    "win": {
+      "icon": "public/icon/icons.png",
+      "target": [
+        "nsis"
+      ]
+    },
+    "mac": {
+      "icon": "public/icon/icons.icns",
+      "target": [
+        "dmg"
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron": "^20.0.3",
+    "electron-builder": "^23.3.3"
+  }
+}
