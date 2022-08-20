@@ -14,7 +14,7 @@
     "appId": "ink.umeet.nextcloud",
     "productName": "Nextcloud",
     "directories": {
-      "output": "build"
+      "output": "pack"
     },
     "win": {
       "icon": "public/icon/icons.png",
